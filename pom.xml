@@ -4,7 +4,7 @@
 
 	<groupId>041d071f-0c70-4a8e-b9aa-d1fac788bd3a</groupId>
 	<artifactId>process-api-imb</artifactId>
-	<version>1.0.21</version>
+	<version>1.0.23</version>
 	<packaging>mule-application</packaging>
 
 	<name>process-api-imb</name>
@@ -13,9 +13,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<app.runtime>4.5.0</app.runtime>
-		<mule.maven.plugin.version>4.1.2</mule.maven.plugin.version>
-		<munit.version>3.1.0</munit.version>
+		<app.runtime>4.5.1</app.runtime>
+		<mule.maven.plugin.version>4.0.0</mule.maven.plugin.version>
+		<!-- <munit.version>3.1.0</munit.version> -->
 	</properties>
 
 	<build>
@@ -40,13 +40,13 @@
 						<applicationName>papi-imb</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
-						<muleVersion>4.5.0</muleVersion>
+						<muleVersion>4.6.0</muleVersion>
 
 					</cloudhub2Deployment>
 					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 				<groupId>com.mulesoft.munit.tools</groupId>
 				<artifactId>munit-maven-plugin</artifactId>
 				<version>${munit.version}</version>
@@ -70,7 +70,7 @@
 						</formats>
 					</coverage>
 				</configuration>
-			</plugin>
+			</plugin>  -->
 		</plugins>
 	</build>
 	<distributionManagement>
@@ -95,7 +95,7 @@
 			<version>1.2.3</version>
 			<classifier>mule-plugin</classifier>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.mulesoft.munit</groupId>
 			<artifactId>munit-runner</artifactId>
 			<version>${munit.version}</version>
@@ -108,7 +108,7 @@
 			<version>${munit.version}</version>
 			<classifier>mule-plugin</classifier>
 			<scope>test</scope>
-		</dependency>
+		</dependency>  -->
 		<dependency>
 			<groupId>org.mule.weave</groupId>
 			<artifactId>assertions</artifactId>

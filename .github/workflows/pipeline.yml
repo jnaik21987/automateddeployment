@@ -29,7 +29,7 @@ jobs:
       #Install Java version 8
       - name: Setup Java JDK
         uses: actions/setup-java@v4
-          with:
+        with:
                 java-version: 8
             
       # Cache the dependencies

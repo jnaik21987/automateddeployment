@@ -15,7 +15,7 @@
 
 		<app.runtime>4.5.1</app.runtime>
 		<mule.maven.plugin.version>4.0.0</mule.maven.plugin.version>
-		<munit.version>2.3.16</munit.version>
+		<munit.version>2.3.17</munit.version>
 	</properties>
 
 	<build>

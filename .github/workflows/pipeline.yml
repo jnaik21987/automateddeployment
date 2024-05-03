@@ -40,7 +40,7 @@ jobs:
 
       # Build and upload the artefact to exchange
       - name: Build artefact and upload to exchange
-        run: mvn clean deploy -s .maven/settings.xml -e
+        run: mvn clean deploy -s .maven/settings.xml -X
 
       # Deploy the artefact from exchange
       - name: Deploy the artefact from exchange

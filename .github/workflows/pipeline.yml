@@ -46,4 +46,4 @@ jobs:
 
       # Deploy the artefact from exchange
       - name: Deploy the artefact from exchange
-        run: mvn clean deploy -DmuleDeploy -s .maven/settings.xml -e
+        run: mvn clean deploy -DmuleDeploy -s .maven/settings.xml -s

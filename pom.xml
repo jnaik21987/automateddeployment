@@ -4,11 +4,8 @@
 
 	<groupId>041d071f-0c70-4a8e-b9aa-d1fac788bd3a</groupId>
 	<artifactId>process-api-imb</artifactId>
-<<<<<<< Updated upstream
+
 	<version>1.0.23</version>
-=======
-	<version>1.0.21</version>
->>>>>>> Stashed changes
 	<packaging>mule-application</packaging>
 
 	<name>process-api-imb</name>
@@ -17,15 +14,10 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-<<<<<<< Updated upstream
+
 		<app.runtime>4.5.1</app.runtime>
 		<mule.maven.plugin.version>4.0.0</mule.maven.plugin.version>
 		<!-- <munit.version>3.1.0</munit.version> -->
-=======
-		<app.runtime>4.5.0</app.runtime>
-		<mule.maven.plugin.version>4.1.2</mule.maven.plugin.version>
-		<munit.version>3.1.0</munit.version>
->>>>>>> Stashed changes
 	</properties>
 
 	<build>
